@@ -1,0 +1,1 @@
+{"pets":[{"type":"cat","name":"Master","age":12},{"type":"cat","name":"Grigoriy","age":40},{"type":"dog","name":"Master","age":50,"owner":"Alexey"},{"type":"cat","name":"Food","age":16}],"arrayList":[{"name":"Master","age":12},{"name":"Grigoriy","age":40},{"name":"Master","age":50,"owner":"Alexey"},{"name":"Food","age":16}]}
