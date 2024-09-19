@@ -1,12 +1,13 @@
 package TestPackageAllow.DeveloperCompany;
 
-import TestPackageAllow.CanUseSite;
+public class Developer{
+    String typeOfUser = "DEVELOPER";
 
-public class Developer implements CanUseSite {
-
-    @Override
     public void useSite(Site site) {
+        System.out.print(typeOfUser + ": ");
         site.SecretUse();
+
+        System.out.print(typeOfUser + ": ");
         site.StandartUse();
     }
 }
