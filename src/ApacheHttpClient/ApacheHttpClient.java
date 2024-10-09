@@ -17,9 +17,9 @@ import java.util.List;
 Опять POST, а не GET
 */
 
-public class ApacheHttp_Client {
+public class ApacheHttpClient {
     public static void main(String[] args) throws Exception {
-        ApacheHttp_Client solution = new ApacheHttp_Client();
+        ApacheHttpClient solution = new ApacheHttpClient();
         solution.sendPost("https://eo1tw862ocg5zuf.m.pipedream.net", "&name=zapp&mood=good&locale=&id=777");
     }
 
