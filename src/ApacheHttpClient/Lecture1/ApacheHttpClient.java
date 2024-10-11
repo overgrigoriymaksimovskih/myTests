@@ -1,4 +1,4 @@
-package ApacheHttpClient;
+package ApacheHttpClient.Lecture1;
 
 import org.apache.http.HttpResponse;
 import org.apache.http.NameValuePair;
