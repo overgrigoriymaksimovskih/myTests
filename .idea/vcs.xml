@@ -2,6 +2,9 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/MavenTests/MavenTests" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/SpringTests/mvc_spring_demo" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/SpringTests/rest_example" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/src/myJavaTests" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/src/myTests" vcs="Git" />
   </component>
