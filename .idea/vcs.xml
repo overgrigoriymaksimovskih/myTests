@@ -2,7 +2,15 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/Hibernate_test/Hibernate_test1" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/Hibernate_test/Hibernate_test2" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/JDBC_test/JDBC_test1" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/JUnit5/MavenProject_1" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/Log4J2_SLF4J/New_Maven_Test1" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/src/MavenTests/MavenTests" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/MavenTests/MavenTests_2" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/MavenTests/TestMavenProject" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/Mockito/Mockito_test_1" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/src/SpringTests/mvc_spring_demo" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/src/SpringTests/rest_example" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/src/myJavaTests" vcs="Git" />
