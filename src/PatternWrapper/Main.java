@@ -9,8 +9,8 @@ public class Main {
         printName(catWrap);
     }
 
-    public static void printName(Cat named)
+    public static void printName(Cat cat)
     {
-        System.out.println(named.getName());
+        System.out.println(cat.getName());
     }
 }

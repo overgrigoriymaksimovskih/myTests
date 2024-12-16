@@ -1,11 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8cb5071f-6bef-447e-aa9c-b50e62f4a074" name="Changes" comment="" />
+    <list default="true" id="8cb5071f-6bef-447e-aa9c-b50e62f4a074" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/MavenProject_1/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MavenProject_1/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MavenProject_1/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MavenProject_1/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MavenProject_1/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MavenProject_1/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MavenProject_1/src/main/java/org/example/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MavenProject_1/src/main/java/org/example/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MavenProject_1/src/test/java/org/example/CalculatorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MavenProject_1/src/test/java/org/example/EmployeeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LinkShortener_TEMP - lastworked/.idea/LinkShortener_TEMP - lastworked.iml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/MavenProject_1" />
   </component>
   <component name="ProjectId" id="2kafVyLIFmDtqT4yihPrHrWaaub" />
   <component name="ProjectViewState">
@@ -17,7 +32,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/projects/0000/MyTests",
+    "last_opened_file_path": "D:/projects/0000/My Tests On GitHUB/MyTestsOnGitHUB/src/LinkShortener_TEMP_1/step8",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -30,6 +45,7 @@
       <option name="presentableId" value="Default" />
       <updated>1723526638754</updated>
       <workItem from="1723526639787" duration="12000" />
+      <workItem from="1733387223955" duration="62000" />
     </task>
     <servers />
   </component>

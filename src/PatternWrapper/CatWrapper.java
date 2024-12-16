@@ -4,8 +4,8 @@ public class CatWrapper extends Cat {
     private Cat original; // Создаем свойство original типа Cat для хранения ссылки на объект Cat
 
     public CatWrapper(Cat cat) { // Конструктор класса CatWrapper, принимающий объект типа Cat
-//        super(cat.getName());
-        super("cat.getName()"); // Вызываем конструктор родительского класса Cat с именем кота
+        super(cat.getName());
+//        super("cat.getName()"); // Вызываем конструктор родительского класса Cat с именем кота
 //        Вызывая конструктор родительского класса (класса Cat) с именем кота, мы инициализируем объект Cat,
 //        который будет храниться в свойстве original класса CatWrapper.
 //        Это позволяет нам использовать методы класса Cat для работы с этим объектом.

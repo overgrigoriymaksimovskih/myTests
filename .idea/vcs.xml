@@ -4,9 +4,28 @@
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/src/Hibernate_test/Hibernate_test1" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/src/Hibernate_test/Hibernate_test2" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/Hibernate_test/Hibernate_test_WebApp" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/src/JDBC_test/JDBC_test1" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/src/JUnit5/MavenProject_1" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/LinkShortener" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/LinkShortener_TEMP - hibernatenotwork/LinkShortener_TEMP" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/LinkShortener_TEMP - lastworked/LinkShortener_TEMP" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/LinkShortener_TEMP - reserv/LinkShortener_TEMP" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/LinkShortener_TEMP/LinkShortener_TEMP" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/LinkShortener_TEMP_1/step1" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/LinkShortener_TEMP_1/step10" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/LinkShortener_TEMP_1/step2" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/LinkShortener_TEMP_1/step3" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/LinkShortener_TEMP_1/step4" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/LinkShortener_TEMP_1/step5" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/LinkShortener_TEMP_1/step6" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/LinkShortener_TEMP_1/step7" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/LinkShortener_TEMP_1/step8" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/LinkShortener_TEMP_1/step9" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/src/Log4J2_SLF4J/New_Maven_Test1" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/MF_SOAP_Connect" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/MF_XML_Parse" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/MF_XML_Parser" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/src/MavenTests/MavenTests" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/src/MavenTests/MavenTests_2" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/src/MavenTests/TestMavenProject" vcs="Git" />
@@ -14,6 +33,10 @@
     <mapping directory="$PROJECT_DIR$/src/REST/REST_TEST_1" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/src/SpringTests/mvc_spring_demo" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/src/SpringTests/rest_example" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/TomCatProjects/MyProject_1" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/URL_Shortener/LinkShortener" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/URL_Shortener/LinkShortener_1" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/URL_Shortener/URL_ShortenerWithConsoleInterface" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/src/myJavaTests" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/src/myTests" vcs="Git" />
   </component>
