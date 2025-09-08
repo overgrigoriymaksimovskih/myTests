@@ -5,26 +5,35 @@ import ru.chelinvest_01.service.NumberToTextConverter;
 import ru.chelinvest_01.service.impl.NumberToTextConverterImpl;
 
 public class Main {
+
+//    private static NumberToTextConverter numberToTextConverter = null;
     public static void main(String[] args) throws IncorrectValueException {
         NumberToTextConverter numberToTextConverter = new NumberToTextConverterImpl();
-//        System.out.println(numberToTextConverter.numberToWords(0L, "М", "И"));// ноль
-//        System.out.println(numberToTextConverter.numberToWords(0L, "М", "Р"));// ноля
-//        System.out.println(numberToTextConverter.numberToWords(0L, "М", "Д"));// нолю
-//        System.out.println(numberToTextConverter.numberToWords(0L, "М", "В"));// ноль
-//        System.out.println(numberToTextConverter.numberToWords(0L, "М", "Т"));// нолём
-//        System.out.println(numberToTextConverter.numberToWords(0L, "М", "П"));// о ноле
-//        System.out.println(numberToTextConverter.numberToWords(1234567L, "М", "И"));// // один миллион двести тридцать четыре тысячи пятьсот шестьдесят семь
-//        System.out.println(numberToTextConverter.numberToWords(21L, "Ж", "Р"));// двадцати одной
-//        System.out.println(numberToTextConverter.numberToWords(1000L, "Ж", "И"));// одна тысяча
-//        System.out.println(numberToTextConverter.numberToWords(2000L, "Ж", "Р"));// двух тысяч**
-//        System.out.println(numberToTextConverter.numberToWords(3000L, "Ж", "Д"));// трём тысячам**
-        System.out.println(numberToTextConverter.numberToWords(999999999999L, "Ж", "П"));
-//        System.out.println(numberToTextConverter.numberToWords(1234567890L, "М", "В"));// один миллиард двести тридцать четыре миллиона пятьсот шестьдесят семь тысяч восемьсот девяносто
-//        System.out.println(numberToTextConverter.numberToWords(999999999L, "Ж", "П"));// о девятистах девяноста девяти миллионах девятистах девяноста девяти тысячах девятистах девяноста девяти*
-//        System.out.println(numberToTextConverter.numberToWords(999999999999L, "Ж", "П"));// о девятистах девяноста девяти миллионах девятистах девяноста девяти тысячах девятистах девяноста девяти*
+        System.out.println(numberToTextConverter.numberToWords(111111111131L, "Ж", "Т"));
 
-//        for (long i = 0; i < 999; i++) {
-//            System.out.println(numberToTextConverter.numberToWords(i, "М", "П") + " " + i);
+//        if (args.length < 3) {
+//            System.err.println("Неверные параметры были переданы в метод main");
+//            return;
+//        }
+//
+//
+//        try {
+//            numberToTextConverter = new NumberToTextConverterImpl();
+//        } catch (Exception e) {
+//            System.err.println("Ошибка при создании сервиса конвертации числа в строку");
+//        }
+//
+//        try {
+//            Long number = Long.parseLong(args[0]);
+//            String result = numberToTextConverter.numberToWords(number, args[1], args[2]);
+//
+//            System.out.println(result);
+//
+//        } catch (IncorrectValueException e) {
+//            System.err.println(e.getMessage());
+//
+//        } catch (NumberFormatException e) {
+//            System.err.println("Не удалось распознать число: " + args[0]);
 //        }
     }
 }

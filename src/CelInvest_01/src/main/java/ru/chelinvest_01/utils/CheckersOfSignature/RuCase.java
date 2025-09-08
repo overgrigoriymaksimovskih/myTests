@@ -1,4 +1,4 @@
-package ru.chelinvest_01.utils.signatureCheckers;
+package ru.chelinvest_01.utils.CheckersOfSignature;
 
 import java.util.Arrays;
 

@@ -1,17 +1,16 @@
 package ru.chelinvest_01.utils.digitHandlers.impl;
 
 import ru.chelinvest_01.utils.digitHandlers.DigitHandler;
-import ru.chelinvest_01.utils.signatureCheckers.RuCase;
+import ru.chelinvest_01.utils.CheckersOfSignature.RuCase;
 
-public final class I  implements DigitHandler {
+public final class iDigitHandlerImpl implements DigitHandler {
     private static final String classTemplate = "миллион";
 
-    public I() {
+    public iDigitHandlerImpl() {
     }
     @Override
     //1 000 000 - 999 999 999
     public String process(long num, String sGender, String sCase) {
-//        System.out.println(num);
         StringBuilder result = new StringBuilder(classTemplate);
 
         if(num == 1000000){
@@ -29,8 +28,7 @@ public final class I  implements DigitHandler {
             }
         }
 
-
-        if (num == 2000000 || num == 3000000 || num == 4000000) {
+        if (num >= 2000000 && num <= 4000000) {
             if (!RuCase.R.equals(sCase)
                     && !RuCase.D.equals(sCase)
                     && !RuCase.T.equals(sCase)
@@ -49,8 +47,6 @@ public final class I  implements DigitHandler {
             if (RuCase.P.equals(sCase)){
                 result.append("ах");
             }
-
-
         }
 
         if ( num > 4000000) {

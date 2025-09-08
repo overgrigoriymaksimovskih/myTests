@@ -1,36 +1,25 @@
 package ru.chelinvest_01.utils.digitHandlers.impl;
 
 import ru.chelinvest_01.utils.digitHandlers.DigitHandler;
-import ru.chelinvest_01.utils.signatureCheckers.RuCase;
+import ru.chelinvest_01.utils.CheckersOfSignature.RuCase;
 
-public final class E implements DigitHandler {
+public final class eDigitHandlerImpl implements DigitHandler {
 
-    public E() {
+    public eDigitHandlerImpl() {
     }
-    //40.90.100
     @Override
+    //40.90.100
     public String process(long num, String sGender, String sCase) {
         if (RuCase.I.equals(sCase) || RuCase.V.equals(sCase)) {
-
-            //было
-//            if (40 == num) return "сорок";
-//            if (90 == num) return "девяносто";
 
             if (num >= 40 && num < 50) return "сорок";
             if (num >= 90 && num < 100) return "девяносто";
 
             return "сто";
-
         }
-
-        //было
-        //if (40 == num) return "сорока";
-        //if (90 == num) return "девяноста";
         if (num >= 40 && num < 50) return "сорока";
         if (num >= 90 && num < 100) return "девяноста";
 
         return "ста";
     }
-
-
 }

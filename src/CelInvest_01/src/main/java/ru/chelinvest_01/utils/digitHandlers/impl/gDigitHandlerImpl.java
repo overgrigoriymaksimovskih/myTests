@@ -1,16 +1,15 @@
 package ru.chelinvest_01.utils.digitHandlers.impl;
 
 import ru.chelinvest_01.utils.digitHandlers.DigitHandler;
-import ru.chelinvest_01.utils.signatureCheckers.Gender;
-import ru.chelinvest_01.utils.signatureCheckers.RuCase;
+import ru.chelinvest_01.utils.digitHandlers.SimpleNumberEnder;
+import ru.chelinvest_01.utils.CheckersOfSignature.Gender;
+import ru.chelinvest_01.utils.CheckersOfSignature.RuCase;
 
-public final class G implements DigitHandler  {
+public final class gDigitHandlerImpl implements DigitHandler  {
     private static final String[] fromFiveToNineTemplates = {"пят", "шест", "сем", "восем", "девят"};
-    private static final String[] simpleNumberEndings = {"ь", "ью", "и"};
 
-    public G() {
+    public gDigitHandlerImpl() {
     }
-
     @Override
     //200 - 900
     public String process(long num, String sGender, String sCase) {
@@ -112,21 +111,7 @@ public final class G implements DigitHandler  {
         ) {
             return "восьми";
         }
-
-        return addSimpleNumberEnding(template, sCase);
+        SimpleNumberEnder simpleEnder = new SimpleNumberEnderImpl();
+        return simpleEnder.addSimpleNumberEnding(template, sCase);
     }
-
-    private String addSimpleNumberEnding(String template, String sCase) {
-
-        if (RuCase.I.equals(sCase) || RuCase.V.equals(sCase)) {
-            return template + simpleNumberEndings[0];
-        }
-
-        if (RuCase.T.equals(sCase)) {
-            return template + simpleNumberEndings[1];
-        }
-
-        return template + simpleNumberEndings[2];
-    }
-
 }

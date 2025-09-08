@@ -1,17 +1,17 @@
 package ru.chelinvest_01.utils.digitHandlers.impl;
 
 import ru.chelinvest_01.utils.digitHandlers.DigitHandler;
-import ru.chelinvest_01.utils.signatureCheckers.RuCase;
+import ru.chelinvest_01.utils.digitHandlers.SimpleNumberEnder;
+import ru.chelinvest_01.utils.CheckersOfSignature.RuCase;
 
-public final class F implements DigitHandler  {
+public final class fDigitHandlerImpl implements DigitHandler  {
     private static final String[] fromFiveToNineTemplates = {"пят", "шест", "сем", "восем", "девят"};
     private static final String[] fromTenToNineteenTemplates = {
             "десят", "одиннадцат", "двенадцат", "тринадцат", "четырнадцат",
             "пятнадцат", "шестнадцат", "семнадцат", "восемнадцат", "девятнадцат"
     };
-    private static final String[] twentyAndThirtyTemplates = {"двадцат", "тридцат"};
-    private static final String[] simpleNumberEndings = {"ь", "ью", "и"};
-    public F() {
+
+    public fDigitHandlerImpl() {
     }
     @Override
     //50-90
@@ -35,25 +35,14 @@ public final class F implements DigitHandler  {
             return "восьми";
         }
 
-        return addSimpleNumberEnding(template, sCase);
+        SimpleNumberEnder simpleEnder = new SimpleNumberEnderImpl();
+        return simpleEnder.addSimpleNumberEnding(template, sCase);
     }
     private String fromTenToNineteenToStr(int num, String sCase) {
 
         String template = fromTenToNineteenTemplates[num - 10];
 
-        return addSimpleNumberEnding(template, sCase);
-    }
-
-    private String addSimpleNumberEnding(String template, String sCase) {
-
-        if (RuCase.I.equals(sCase) || RuCase.V.equals(sCase)) {
-            return template + simpleNumberEndings[0];
-        }
-
-        if (RuCase.T.equals(sCase)) {
-            return template + simpleNumberEndings[1];
-        }
-
-        return template + simpleNumberEndings[2];
+        SimpleNumberEnder simpleEnder = new SimpleNumberEnderImpl();
+        return simpleEnder.addSimpleNumberEnding(template, sCase);
     }
 }

@@ -1,11 +1,12 @@
 package ru.chelinvest_01.utils.digitHandlers.impl;
 
 import ru.chelinvest_01.utils.digitHandlers.DigitHandler;
-import ru.chelinvest_01.utils.signatureCheckers.Gender;
-import ru.chelinvest_01.utils.signatureCheckers.RuCase;
+import ru.chelinvest_01.utils.CheckersOfSignature.Gender;
+import ru.chelinvest_01.utils.CheckersOfSignature.RuCase;
 
-public final class A implements DigitHandler {
-    public A() {
+public final class aDigitHandlerImpl implements DigitHandler {
+
+    public aDigitHandlerImpl() {
     }
     @Override
     // 1.2.3.4.
@@ -28,7 +29,6 @@ public final class A implements DigitHandler {
     private String oneToStr(String sGender, String sCase) {
 
         if (Gender.FEMALE.equals(sGender)) {
-
             if (RuCase.I.equals(sCase)) return "одна";
             if (RuCase.V.equals(sCase)) return "одну";
 
@@ -36,7 +36,6 @@ public final class A implements DigitHandler {
         }
 
         if (RuCase.I.equals(sCase) || RuCase.V.equals(sCase)) {
-
             if (Gender.MALE.equals(sGender)) return "один";
             if (Gender.MIDDLE.equals(sGender)) return "одно";
         }
@@ -53,13 +52,11 @@ public final class A implements DigitHandler {
     private String twoToStr(String sGender, String sCase) {
 
         if (RuCase.I.equals(sCase) || RuCase.V.equals(sCase)) {
-
             if (Gender.FEMALE.equals(sGender)) return "две";
 
             return "два";
 
         }
-
         if (RuCase.D.equals(sCase)) return "двум";
         if (RuCase.T.equals(sCase)) return "двумя";
 
@@ -67,9 +64,7 @@ public final class A implements DigitHandler {
     }
     //3
     private String threeToStr(String sCase) {
-
         if (RuCase.R.equals(sCase) || RuCase.P.equals(sCase)) return "трёх";
-
         if (RuCase.D.equals(sCase)) return "трём";
         if (RuCase.T.equals(sCase)) return "тремя";
 
@@ -77,9 +72,7 @@ public final class A implements DigitHandler {
     }
     //4
     private String fourToStr(String sCase) {
-
         if (RuCase.R.equals(sCase) || RuCase.P.equals(sCase)) return "четырёх";
-
         if (RuCase.D.equals(sCase)) return "четырём";
         if (RuCase.T.equals(sCase)) return "четырьмя";
 
