@@ -43,16 +43,16 @@ public final class hDigitHandlerImpl implements DigitHandler  {
                 result.append(classTemplate + "и");
             }
             if (RuCase.R.equals(sCase)){
-                result.append(classTemplate + "ч");
+                result.append(classTemplate + "");
             }
             if (RuCase.D.equals(sCase)){
-                result.append(classTemplate + "м");
+                result.append(classTemplate + "ам");
             }
             if (RuCase.T.equals(sCase)){
                 result.append(classTemplate + "ами");
             }
             if (RuCase.P.equals(sCase)){
-                result.append(classTemplate + "х");
+                result.append(classTemplate + "ах");
             }
         }
 

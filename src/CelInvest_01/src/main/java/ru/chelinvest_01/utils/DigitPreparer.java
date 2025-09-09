@@ -1,6 +1,6 @@
 package ru.chelinvest_01.utils;
 
-import ru.chelinvest_01.Exceptions.DigitPreparingException;
+import ru.chelinvest_01.exceptions.DigitPreparingException;
 import java.util.ArrayList;
 import java.util.AbstractMap;
 import java.util.List;
@@ -45,6 +45,14 @@ public class DigitPreparer {
                 int res = (result.get(result.size()-1)).getValue() + 10;
                 result.get(result.size()-1).setValue(res);
                 result.get(result.size()-2).setValue(0);
+            }
+//            1000
+            int TenOrTeen1000 = (result.get(result.size()-5)).getValue();
+//            System.out.println();
+            if(TenOrTeen1000 == 1){
+                int res = (result.get(result.size()-4)).getValue() + 10;
+                result.get(result.size()-4).setValue(res);
+                result.get(result.size()-5).setValue(0);
             }
         }
 

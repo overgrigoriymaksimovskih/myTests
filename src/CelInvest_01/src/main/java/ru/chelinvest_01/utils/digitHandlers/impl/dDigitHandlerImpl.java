@@ -9,7 +9,7 @@ public final class dDigitHandlerImpl implements DigitHandler {
     public dDigitHandlerImpl() {
     }
     @Override
-    //20-30
+    //20-40
     public String process(long num, String sGender, String sCase) {
         String template = twentyAndThirtyTemplates[(int) (num / 10 - twentyAndThirtyTemplates.length)];
         SimpleNumberEnder simpleEnder = new SimpleNumberEnderImpl();

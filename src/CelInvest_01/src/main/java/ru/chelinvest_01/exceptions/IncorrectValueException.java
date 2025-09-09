@@ -1,4 +1,4 @@
-package ru.chelinvest_01.Exceptions;
+package ru.chelinvest_01.exceptions;
 
 public class IncorrectValueException extends Exception {
     public IncorrectValueException() {

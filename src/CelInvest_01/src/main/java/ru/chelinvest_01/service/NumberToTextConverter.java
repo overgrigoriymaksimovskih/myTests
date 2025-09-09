@@ -1,6 +1,6 @@
 package ru.chelinvest_01.service;
 
-import ru.chelinvest_01.Exceptions.IncorrectValueException;
+import ru.chelinvest_01.exceptions.IncorrectValueException;
 
 public interface NumberToTextConverter {
 

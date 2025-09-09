@@ -1,7 +1,5 @@
 package ru.chelinvest_01.utils.CheckersOfSignature;
 
-import java.util.Arrays;
-
 public final class Sum {
     private Sum() {
     }
